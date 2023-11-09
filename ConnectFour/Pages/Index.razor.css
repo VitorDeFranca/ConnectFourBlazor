@@ -1,0 +1,12 @@
+﻿h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    color: #38A3A5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5 {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
