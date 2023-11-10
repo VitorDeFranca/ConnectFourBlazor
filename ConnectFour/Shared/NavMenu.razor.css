@@ -60,3 +60,14 @@
         display: block;
     }
 }
+
+@media (max-width: 640px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .collapse {
+        
+        display: block;
+    }
+}

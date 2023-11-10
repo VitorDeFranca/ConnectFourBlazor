@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>ConnectFour</title>
+    <title>ConnectFour Blazor</title>
+    <link rel="icon" href="https://blazeofcode.files.wordpress.com/2019/04/brandblazor_nohalo_1000x-1.png?w=328&h=328">
     <base href="/" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
@@ -13,7 +14,12 @@
 </head>
 
 <body>
-    <div id="app">Loading...</div>
+    <div id="app">
+        <div class="vh-100 d-flex align-items-center justify-content-center gap-3">
+            <div class="h5 spinner-border" style="color: #38A3A5"></div>
+            <div class="h2">Please wait</div>
+        </div>
+    </div>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.
